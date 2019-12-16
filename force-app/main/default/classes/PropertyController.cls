@@ -25,7 +25,7 @@ public class PropertyController {
              Beds__c,City__c,Description__c,
              Location__c,Picture__c,Price__c,
             State__c,Zip__c,Address__c
-             FROM Property__cp];
+             FROM Property__c];
     }
 
 }
