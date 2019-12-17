@@ -1,7 +1,7 @@
 //
 public class PropertyController {
     
-    //@AuraEnabled(Cacheable = true)
+    @AuraEnabled(Cacheable = true)
     public static List<Property__c> searchProperties(String searchTerm){
         
         ///Return all properties if there is no search term

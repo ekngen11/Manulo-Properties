@@ -83,10 +83,8 @@
                 "Id": "0037E00000rHPBsQAO"
             },
             "Baths__c": 2,
-            "Location__c": {
-                "latitude": 44.5923123,
-                "longitude": -75.1679313
-            },
+            "Location__Latitude__s": 44.5923123,
+            "Location__Longitude__s": -75.1679313,
             "Beds__c": 3,
             "City__c": "Canton",
             "Country__c": "USA",

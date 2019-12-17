@@ -1,0 +1,20 @@
+<template>
+
+    <lightning-card title={property.Name} class="property-tile">
+        <div class="slds-p-horizontal-_small">
+            <div class = "slds-media">
+                <div class= "slds-media__figure">
+                    <img src={appResources.propertyFacade} alt="Property Profile" class="property-facade">
+                </div>
+
+                <div class="slds-media__body">
+                    <p class="slds-m-bottom_xx-small">Name: {property.Name}</p>
+                    <p class="slds-m-bottom_xx-small">Bedrooms: {property.Beds__c}</p>
+                    <p class="slds-m-bottom_xx-small">Bathrooms: {property.Bath__c}</p>
+                    <p class="slds-m-bottom_xx-small">Agent: {property.Agent__c}</p>
+                </div>
+            </div>
+        </div>
+    </lightning-card>
+    
+</template>
