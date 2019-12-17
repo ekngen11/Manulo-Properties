@@ -1,0 +1,25 @@
+<template>
+    
+    <lightning-card title="Agent" icon-name = "standard:people">
+
+        <div class="slds-m-around_medium">
+
+            <!-- Show agent when property is loaded -->
+            <template if:true={property.data}>
+                <lightning-record-form
+                    object-api-name ="Contact"
+                    record-id = {agentId}
+                    layout-type = "Compact">
+                </lightning-record-form>
+
+            </template>
+
+            <!-- If data fails to load-->
+            <template if:true={property.error}>
+                <div class="slds-text-color_error">
+                    An error occurred while loading the property record
+                </div>
+            </template>
+        </div>
+    </lightning-card>
+</template>

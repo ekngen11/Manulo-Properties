@@ -5,38 +5,6 @@
                 "type": "Property__c",
                 "referenceId": "Property__cRef1"
             },
-            "Address__c": "40 Park Street",
-            "Baths__c": 2,
-            "Beds__c": 3,
-            "City__c": "Canton",
-            "Country__c": "USA",
-            "Picture__c": "https://app.box.com/s/mi1idt4b8whnixy8pvkbghwmqxh0rwhx",
-            "Price__c": 100000,
-            "Name": "Springy Bliss",
-            "State__c": "NY",
-            "Zip__c": "13617"
-        },
-        {
-            "attributes": {
-                "type": "Property__c",
-                "referenceId": "Property__cRef2"
-            },
-            "Address__c": "23 Romoda Drive",
-            "Baths__c": 5,
-            "Beds__c": 6,
-            "City__c": "Canton",
-            "Country__c": "USA",
-            "Picture__c": "https://app.box.com/s/3zxre7t92lqnc4d3q39m9otp5qdtlqro",
-            "Price__c": 400000,
-            "Name": "Woody Island",
-            "State__c": "NY",
-            "Zip__c": "13716"
-        },
-        {
-            "attributes": {
-                "type": "Property__c",
-                "referenceId": "Property__cRef3"
-            },
             "Address__c": "52 Court St",
             "Baths__c": 3,
             "Beds__c": 4,
@@ -51,7 +19,7 @@
         {
             "attributes": {
                 "type": "Property__c",
-                "referenceId": "Property__cRef4"
+                "referenceId": "Property__cRef2"
             },
             "Address__c": "12 Stiles Rd",
             "Baths__c": 15,
@@ -67,7 +35,7 @@
         {
             "attributes": {
                 "type": "Property__c",
-                "referenceId": "Property__cRef5"
+                "referenceId": "Property__cRef3"
             },
             "Address__c": "31 Main Street",
             "Baths__c": 8,
@@ -79,6 +47,38 @@
             "Name": "Stony Waterfall",
             "State__c": "NY",
             "Zip__c": "13617"
+        },
+        {
+            "attributes": {
+                "type": "Property__c",
+                "referenceId": "Property__cRef4"
+            },
+            "Address__c": "40 Park Street",
+            "Baths__c": 2,
+            "Beds__c": 3,
+            "City__c": "Canton",
+            "Country__c": "USA",
+            "Picture__c": "https://app.box.com/s/mi1idt4b8whnixy8pvkbghwmqxh0rwhx",
+            "Price__c": 100000,
+            "Name": "Springy Bliss",
+            "State__c": "NY",
+            "Zip__c": "13617"
+        },
+        {
+            "attributes": {
+                "type": "Property__c",
+                "referenceId": "Property__cRef5"
+            },
+            "Address__c": "23 Romoda Drive",
+            "Baths__c": 5,
+            "Beds__c": 6,
+            "City__c": "Canton",
+            "Country__c": "USA",
+            "Picture__c": "https://app.box.com/s/3zxre7t92lqnc4d3q39m9otp5qdtlqro",
+            "Price__c": 400000,
+            "Name": "Woody Island",
+            "State__c": "NY",
+            "Zip__c": "13716"
         }
     ]
 }

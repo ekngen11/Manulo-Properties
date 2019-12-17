@@ -3,14 +3,14 @@
         "experimentalDecorators": true,
         "baseUrl": ".",
         "paths": {
-            "c/propertyLocation": [
-                "propertyLocation/propertyLocation.js"
-            ],
-            "c/PropertyImages": [
-                "PropertyImages/PropertyImages.js"
+            "c/propertyAgent": [
+                "propertyAgent/propertyAgent.js"
             ],
             "c/propertyImages": [
                 "propertyImages/propertyImages.js"
+            ],
+            "c/propertyLocation": [
+                "propertyLocation/propertyLocation.js"
             ]
         }
     },
