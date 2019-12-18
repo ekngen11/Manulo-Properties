@@ -9,14 +9,14 @@
             "c/propertyImages": [
                 "propertyImages/propertyImages.js"
             ],
-            "c/propertyList": [
-                "propertyList/propertyList.js"
-            ],
             "c/propertyLocation": [
                 "propertyLocation/propertyLocation.js"
             ],
             "c/propertyTile": [
                 "propertyTile/propertyTile.js"
+            ],
+            "c/propertyList": [
+                "propertyList/propertyList.js"
             ]
         }
     },

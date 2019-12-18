@@ -1,8 +1,22 @@
 .property-tile{
-    border: 1px solid #d29d99;
+    border: 1px solid #0e5f5b;
     border-radius: .25rem;
     display: block;
 }
 .property-facade{
     height: 100px;
+}
+
+.property-tile .slds-card{
+    border: 1px solid #0e5f5b;
+    background-color: #abf1da;
+    transition:border 0.5s,background-color 0.5s;
+}
+
+.property-tile:hover .slds-card{
+    border: 1px solid #26917a;
+    background-color: #85ac8a;
+}
+.property-tile-button{
+    fill:#570606;
 }

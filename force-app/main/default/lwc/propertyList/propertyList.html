@@ -9,15 +9,15 @@
                 variant="label-hidden"
                 class="slds-m-bottom_small"
                 label="Search"
-                placeholder = "Search for properties"
+                placeholder = "Search by City"
                 value={searchTerm}>
                     
                 </lightning-input>
 
                 <lightning-layout multiple-rows="true" pull-to-boundary="small">
                     <template for:each={properties.data} for:item="property">
-                        <lightning-layout-item key={property.Id} size="3" class="slds-p-around_x-small">
-                            <c-property-tile property={property}></c-property-tile>
+                        <lightning-layout-item key={property.Id} size="4" class="slds-p-around_x-small">
+                            <c-property-tile property={property} onpropertyview={handlePropertyView}> </c-property-tile>
                         </lightning-layout-item>
                     </template>
                 </lightning-layout>
@@ -33,8 +33,7 @@
             <!-- Error: data failed to load-->
             <template if:true={properties.error}>
                 <div class="slds-text-color_error">
-                    An error occurred while loading the property list
-                    {properties.error}
+                    An error occurred while loading the property list;
                 </div>
             </template>
         </div>

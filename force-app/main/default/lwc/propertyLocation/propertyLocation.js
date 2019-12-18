@@ -31,22 +31,21 @@ export default class PropertyLocation extends LightningElement {
             const Longitude = data.fields.Location__Longitude__s.value;
             this.mapMarkers = [
                 {   
-                    //Uncomment this to use Longitude and Latitude instead of addresses for location
-                    /*
+                    
                     location:{
                         Latitude,
                         Longitude
                     },
-                    */
-
                     
+                    //Optionally: Location using address
+                    /*
                     location:{
                         Street:data.fields.Address__c.value,
                         City: data.fields.City__c.value,
                         State: data.fields.State__c.value,
                         PostalCode: data.fields.Zip__c.value,
                         Country: data.fields.fields.Country__c.value
-                    },
+                    },*/
                     title:this.name,
                     description: `Coords: ${Latitude},${Longitude}`
                 }
