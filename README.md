@@ -12,10 +12,32 @@ Installation Manulo Properties on a Scratch Org
 	
 2. If you haven't already done so, authenticate with your hub org and provide it with an alias (manuloproperties in the command below):
 
-sfdx force:auth:web:login -d -a manuloproperties
+	sfdx force:auth:web:login -d -a manuloproperties
 
 3. Clone this repository:
 
-git clone https://github.com/ekngen11/Manulo-Properties.git
+	git clone https://github.com/ekngen11/Manulo-Properties.git
 
-4. 
+4. Create a scratch org and give it an alias (manuloscratch in our case below)
+
+	sfdx force:org:create -s -f config/project-scratch-def.json -a manuloscratch
+
+5. Push the app to your scratch org:
+
+	sfdx force:source:push
+
+6. Assign the ManuloProperties permission set to the default user.
+
+	sfdx force:user:permset:assign -n Manuloproperties
+	
+7. Import Contact sample data
+	
+	sfdx force:data:tree:import --plan Data/Contact.json
+	
+8 Import Property Sample data
+	
+	sfdx force:data:tree:import --plan Data/Property__c.json
+	
+9. 
+	
+
