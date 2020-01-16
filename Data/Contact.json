@@ -3,346 +3,112 @@
         {
             "attributes": {
                 "type": "Contact",
-                "referenceId": "ContactRef1"
+                "referenceId": "SeanForbesRef"
             },
-            "Name": "Rose Gonzalez",
-            "Phone": "(512) 757-6000",
-            "Email": "rose@edge.com",
-            "Title": "SVP, Procurement",
-            "MailingAddress": {
-                "city": null,
-                "country": null,
-                "geocodeAccuracy": null,
-                "latitude": null,
-                "longitude": null,
-                "postalCode": null,
-                "state": null,
-                "street": "313 Constitution Place Austin, TX 78767 USA"
-            }
-        },
-        {
-            "attributes": {
-                "type": "Contact",
-                "referenceId": "ContactRef2"
-            },
-            "Name": "Sean Forbes",
+            "FirstName": "Sean",
+            "LastName":"Forbes",
+            "Title": "CFO",
             "Phone": "(512) 757-6000",
             "Email": "sean@edge.com",
-            "Title": "CFO",
-            "MailingAddress": {
-                "city": null,
-                "country": null,
-                "geocodeAccuracy": null,
-                "latitude": null,
-                "longitude": null,
-                "postalCode": null,
-                "state": null,
-                "street": "312 Constitution Place Austin, TX 78767 USA"
-            }
+            "MailingStreet": "312 Constitution Place",
+            "MailingCity": "Austin",
+            "MailingState": "TX",
+            "MailingPostalCode": "78767",
+            "MailingCountry": "USA"
         },
         {
             "attributes": {
                 "type": "Contact",
-                "referenceId": "ContactRef3"
+                "referenceId": "JackRogersRef"
             },
-            "Name": "Jack Rogers",
+            "FirstName": "Jack",
+            "LastName":"Rogers",
+            "Title": "VP, Facilities",
             "Phone": "(336) 222-7000",
             "Email": "jrogers@burlington.com",
+            "MailingStreet": "525 S. Lexington Ave",
+            "MailingCity": "Burlington",
+            "MailingState": "NC",
+            "MailingPostalCode": "27215",
+            "MailingCountry": "USA"
+        },
+        {
+            "attributes": {
+                "type": "Contact",
+                "referenceId": "JohnBondref"
+            },
+            "FirstName": "John",
+            "LastName":"Bond",
             "Title": "VP, Facilities",
-            "MailingAddress": {
-                "city": "Burlington",
-                "country": "USA",
-                "geocodeAccuracy": null,
-                "latitude": null,
-                "longitude": null,
-                "postalCode": "27215",
-                "state": "NC",
-                "street": "525 S. Lexington Ave"
-            }
-        },
-        {
-            "attributes": {
-                "type": "Contact",
-                "referenceId": "ContactRef4"
-            },
-            "Name": "Pat Stumuller",
-            "Phone": "(014) 427-4427",
-            "Email": "pat@pyramid.net",
-            "Title": "SVP, Administration and Finance",
-            "MailingAddress": {
-                "city": "Paris",
-                "country": "France",
-                "geocodeAccuracy": null,
-                "latitude": null,
-                "longitude": null,
-                "postalCode": "75251",
-                "state": null,
-                "street": "2 Place Jussieu"
-            }
-        },
-        {
-            "attributes": {
-                "type": "Contact",
-                "referenceId": "ContactRef5"
-            },
-            "Name": "Andy Young",
-            "Phone": "(785) 241-6200",
-            "Email": "a_young@dickenson.com",
-            "Title": "SVP, Operations",
-            "MailingAddress": {
-                "city": "Lawrence",
-                "country": "USA",
-                "geocodeAccuracy": null,
-                "latitude": null,
-                "longitude": null,
-                "postalCode": "66045",
-                "state": "KS",
-                "street": "1301 Hoch Drive"
-            }
-        },
-        {
-            "attributes": {
-                "type": "Contact",
-                "referenceId": "ContactRef6"
-            },
-            "Name": "Tim Barr",
-            "Phone": "(312) 596-1000",
-            "Email": "barr_tim@grandhotels.com",
-            "Title": "SVP, Administration and Finance",
-            "MailingAddress": {
-                "city": null,
-                "country": null,
-                "geocodeAccuracy": null,
-                "latitude": null,
-                "longitude": null,
-                "postalCode": null,
-                "state": null,
-                "street": "2335 N. Michigan Avenue, Suite 1500 Chicago, IL 60601, USA"
-            }
-        },
-        {
-            "attributes": {
-                "type": "Contact",
-                "referenceId": "ContactRef7"
-            },
-            "Name": "John Bond",
             "Phone": "(312) 596-1000",
             "Email": "bond_john@grandhotels.com",
-            "Title": "VP, Facilities",
-            "MailingAddress": {
-                "city": null,
-                "country": null,
-                "geocodeAccuracy": null,
-                "latitude": null,
-                "longitude": null,
-                "postalCode": null,
-                "state": null,
-                "street": "2334 N. Michigan Avenue, Suite 1500 Chicago, IL 60601, USA"
-            }
+            "MailingStreet": "2334 N. Michigan Avenue, Suite 1500",
+            "MailingCity": "Chicago",
+            "MailingState": "IL",
+            "MailingPostalCode": "60601",
+            "MailingCountry": "USA"
         },
         {
             "attributes": {
                 "type": "Contact",
-                "referenceId": "ContactRef8"
+                "referenceId": "Patstumullerref"
             },
-            "Name": "Stella Pavlova",
-            "Phone": "(212) 842-5500",
-            "Email": "spavlova@uog.com",
-            "Title": "SVP, Production",
-            "MailingAddress": {
-                "city": null,
-                "country": null,
-                "geocodeAccuracy": null,
-                "latitude": null,
-                "longitude": null,
-                "postalCode": null,
-                "state": null,
-                "street": "1303 Avenue of the Americas  New York, NY 10019 USA"
-            }
+            "FirstName": "Pat",
+            "LastName":"Stumuller",
+            "Title": "SVP, Administration and Finance",
+            "Phone": "(014) 427-4427",
+            "Email": "pat@pyramid.net",
+            "MailingCity": "Paris",
+            "MailingPostalCode": "75251",
+            "MailingCountry": "France"
         },
         {
             "attributes": {
                 "type": "Contact",
-                "referenceId": "ContactRef9"
+                "referenceId": "Andyyoungref"
             },
-            "Name": "Lauren Boyle",
-            "Phone": "(212) 842-5500",
-            "Email": "lboyle@uog.com",
-            "Title": "SVP, Technology",
-            "MailingAddress": {
-                "city": null,
-                "country": null,
-                "geocodeAccuracy": null,
-                "latitude": null,
-                "longitude": null,
-                "postalCode": null,
-                "state": null,
-                "street": "1304 Avenue of the Americas  New York, NY 10019 USA"
-            }
+            "FirstName": "Andy",
+            "LastName":"Young",
+            "Title": "SVP, Operations",
+            "Phone": "(785) 241-6200",
+            "Email": "a_young@dickenson.com",
+            "MailingStreet": "1301 Hoch Drive",
+            "MailingCity": "Lawrence",
+            "MailingState": "KS",
+            "MailingPostalCode": "66045",
+            "MailingCountry": "USA"
         },
         {
             "attributes": {
                 "type": "Contact",
-                "referenceId": "ContactRef10"
+                "referenceId": "Timbarrref"
             },
-            "Name": "Jane Grey",
-            "Phone": "(520) 773-9050",
-            "Email": "jane_gray@uoa.edu",
-            "Title": "Dean of Administration",
-            "MailingAddress": {
-                "city": null,
-                "country": null,
-                "geocodeAccuracy": null,
-                "latitude": null,
-                "longitude": null,
-                "postalCode": null,
-                "state": null,
-                "street": "888 N Euclid  Hallis Center, Room 501 Tucson, AZ 85721 United States"
-            }
+            "FirstName": "Tim",
+            "LastName":"Barr",
+            "Title": "SVP, Administration and Finance",
+            "Phone": "(312) 596-1000",
+            "Email": "barr_tim@grandhotels.com",
+            "MailingStreet": "2335 N. Michigan Avenue, Suite 1500",
+            "MailingCity": "Chicago",
+            "MailingState": "IL",
+            "MailingPostalCode": "60601",
+            "MailingCountry": "USA"
         },
         {
             "attributes": {
                 "type": "Contact",
-                "referenceId": "ContactRef11"
+                "referenceId": "Rosegonzalezref"
             },
-            "Name": "Arthur Song",
-            "Phone": "(212) 842-5500",
-            "Email": "asong@uog.com",
-            "Title": "CEO",
-            "MailingAddress": {
-                "city": null,
-                "country": null,
-                "geocodeAccuracy": null,
-                "latitude": null,
-                "longitude": null,
-                "postalCode": null,
-                "state": null,
-                "street": "1301 Avenue of the Americas  New York, NY 10019 USA"
-            }
-        },
-        {
-            "attributes": {
-                "type": "Contact",
-                "referenceId": "ContactRef12"
-            },
-            "Name": "Ashley James",
-            "Phone": "+44 191 4956203",
-            "Email": "ajames@uog.com",
-            "Title": "VP, Finance",
-            "MailingAddress": {
-                "city": null,
-                "country": null,
-                "geocodeAccuracy": null,
-                "latitude": null,
-                "longitude": null,
-                "postalCode": null,
-                "state": null,
-                "street": "Kings Park, 17th Avenue, Team Valley Trading Estate, Gateshead, Tyne and Wear NE26 3HS United Kingdom"
-            }
-        },
-        {
-            "attributes": {
-                "type": "Contact",
-                "referenceId": "ContactRef13"
-            },
-            "Name": "Tom Ripley",
-            "Phone": "(650) 450-8810",
-            "Email": "tripley@uog.com",
-            "Title": "Regional General Manager",
-            "MailingAddress": {
-                "city": null,
-                "country": null,
-                "geocodeAccuracy": null,
-                "latitude": null,
-                "longitude": null,
-                "postalCode": null,
-                "state": null,
-                "street": "9 Tagore Lane Singapore, Singapore 787472 Singapore"
-            }
-        },
-        {
-            "attributes": {
-                "type": "Contact",
-                "referenceId": "ContactRef14"
-            },
-            "Name": "Liz D'Cruz",
-            "Phone": "(650) 450-8810",
-            "Email": "ldcruz@uog.com",
-            "Title": "VP, Production",
-            "MailingAddress": {
-                "city": null,
-                "country": null,
-                "geocodeAccuracy": null,
-                "latitude": null,
-                "longitude": null,
-                "postalCode": null,
-                "state": null,
-                "street": "10 Tagore Lane Singapore, Singapore 787472 Singapore"
-            }
-        },
-        {
-            "attributes": {
-                "type": "Contact",
-                "referenceId": "ContactRef15"
-            },
-            "Name": "Edna Frank",
-            "Phone": "(650) 867-3450",
-            "Email": "efrank@genepoint.com",
-            "Title": "VP, Technology",
-            "MailingAddress": {
-                "city": null,
-                "country": null,
-                "geocodeAccuracy": null,
-                "latitude": null,
-                "longitude": null,
-                "postalCode": null,
-                "state": null,
-                "street": "345 Shoreline Park Mountain View, CA 94043 USA"
-            }
-        },
-        {
-            "attributes": {
-                "type": "Contact",
-                "referenceId": "ContactRef16"
-            },
-            "Name": "Avi Green",
-            "Phone": "(212) 842-5500",
-            "Email": "agreen@uog.com",
-            "Title": "CFO",
-            "MailingAddress": {
-                "city": null,
-                "country": null,
-                "geocodeAccuracy": null,
-                "latitude": null,
-                "longitude": null,
-                "postalCode": null,
-                "state": null,
-                "street": "1302 Avenue of the Americas  New York, NY 10019 USA"
-            }
-        },
-        {
-            "attributes": {
-                "type": "Contact",
-                "referenceId": "ContactRef17"
-            },
-            "Name": "Siddartha Nedaerk",
-            "MailingAddress": {
-                "city": "San Francisco",
-                "country": "US",
-                "geocodeAccuracy": null,
-                "latitude": null,
-                "longitude": null,
-                "postalCode": "94087",
-                "state": "CA",
-                "street": "The Landmark @ One Market"
-            }
-        },
-        {
-            "attributes": {
-                "type": "Contact",
-                "referenceId": "ContactRef18"
-            },
-            "Name": "Jake Llorrac"
+            "FirstName": "Rose",
+            "LastName":"Gonzalez",
+            "Title": "SVP, Procurement",
+            "Phone": "(512) 757-6000",
+            "Email": "rose@edge.com",
+            "MailingStreet": "313 Constitution Place Austin",
+            "MailingCity": "Austin",
+            "MailingState": "TX",
+            "MailingPostalCode": "78767",
+            "MailingCountry": "USA"
         }
     ]
 }

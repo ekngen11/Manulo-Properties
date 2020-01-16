@@ -3,121 +3,116 @@
         {
             "attributes": {
                 "type": "Property__c",
-                "referenceId": "Property__cRef1"
+                "referenceId": "OutdoorheavenRef"
             },
-            "Address__c": "52 Court St",
-            "Agent__r": {
-                "attributes": {
-                    "type": "Contact",
-                    "url": "/services/data/v47.0/sobjects/Contact/0037E00000rHPBwQAO"
-                },
-                "Id": "0037E00000rHPBwQAO"
-            },
+            "Name": "Outdoor Heaven",
+            "Location__Latitude__s": 44.599741,
+            "Location__Longitude__s": -75.1714826,
             "Baths__c": 3,
             "Beds__c": 4,
+            "Address__c": "52 Court St",
             "City__c": "Canton",
+            "State__c": "NY",
             "Country__c": "USA",
-            "Picture__c": "https://app.box.com/s/bmkhs9g5knvvpggxb5cby0a0ok4tk70z",
+            "Zip__c": "13617",
             "Price__c": 200000,
-            "Name": "Outdoor Heaven",
-            "State__c": "NY",
-            "Zip__c": "13617"
+            "Picture__c": "https://app.box.com/s/bmkhs9g5knvvpggxb5cby0a0ok4tk70z",
+            "Agent__c":"@SeanForbesRef"
         },
         {
             "attributes": {
                 "type": "Property__c",
-                "referenceId": "Property__cRef2"
+                "referenceId": "StonywaterfallRef"
             },
-            "Address__c": "12 Stiles Rd",
-            "Agent__r": {
-                "attributes": {
-                    "type": "Contact",
-                    "url": "/services/data/v47.0/sobjects/Contact/0037E00000rHPC2QAO"
-                },
-                "Id": "0037E00000rHPC2QAO"
-            },
-            "Baths__c": 15,
-            "Beds__c": 10,
-            "City__c": "Canton",
-            "Country__c": "USA",
-            "Picture__c": "https://app.box.com/s/pj3p2knkcak7dxx7hrql6qb78c7mxgb5",
-            "Price__c": 1000000,
-            "Name": "Elegant Manor",
-            "State__c": "NY",
-            "Zip__c": "13617"
-        },
-        {
-            "attributes": {
-                "type": "Property__c",
-                "referenceId": "Property__cRef3"
-            },
-            "Address__c": "31 Main Street",
-            "Agent__r": {
-                "attributes": {
-                    "type": "Contact",
-                    "url": "/services/data/v47.0/sobjects/Contact/0037E00000rHPC3QAO"
-                },
-                "Id": "0037E00000rHPC3QAO"
-            },
+            "Name": "Stony Waterfall",
+            "Location__Latitude__s": 44.5957589,
+            "Location__Longitude__s": -75.1738331,
             "Baths__c": 8,
             "Beds__c": 7,
+            "Address__c": "31 Main Street",
             "City__c": "Canton",
+            "State__c": "NY",
             "Country__c": "USA",
-            "Picture__c": "https://unsplash.com/photos/XJnP4L958ds",
+            "Zip__c": "13617",
             "Price__c": 800000,
-            "Name": "Stony Waterfall",
-            "State__c": "NY",
-            "Zip__c": "13617"
+            "Picture__c": "https://unsplash.com/photos/XJnP4L958ds",
+            "Agent__c":"@JackRogersRef"
         },
         {
             "attributes": {
                 "type": "Property__c",
-                "referenceId": "Property__cRef4"
+                "referenceId": "WoodyIslandRef"
             },
-            "Address__c": "40 Park Street",
-            "Agent__r": {
-                "attributes": {
-                    "type": "Contact",
-                    "url": "/services/data/v47.0/sobjects/Contact/0037E00000rHPBsQAO"
-                },
-                "Id": "0037E00000rHPBsQAO"
-            },
-            "Baths__c": 2,
-            "Location__c": {
-                "latitude": 44.5923123,
-                "longitude": -75.1679313
-            },
-            "Beds__c": 3,
-            "City__c": "Canton",
-            "Country__c": "USA",
-            "Picture__c": "https://image.freepik.com/free-vector/illustration-couple-lovers-away-from-home_24877-58135.jpg",
-            "Price__c": 100000,
-            "Name": "Springy Bliss",
-            "State__c": "NY",
-            "Zip__c": "13617"
-        },
-        {
-            "attributes": {
-                "type": "Property__c",
-                "referenceId": "Property__cRef5"
-            },
-            "Address__c": "23 Romoda Drive",
-            "Agent__r": {
-                "attributes": {
-                    "type": "Contact",
-                    "url": "/services/data/v47.0/sobjects/Contact/0037E00000rHPC7QAO"
-                },
-                "Id": "0037E00000rHPC7QAO"
-            },
+            "Name": "Woody Island",
+            "Location__Latitude__s": 44.5923558,
+            "Location__Longitude__s": -75.1617183,
             "Baths__c": 5,
             "Beds__c": 6,
+            "Address__c": "23 Romoda Drive",
             "City__c": "Canton",
-            "Country__c": "USA",
-            "Picture__c": "https://app.box.com/s/3zxre7t92lqnc4d3q39m9otp5qdtlqro",
-            "Price__c": 400000,
-            "Name": "Woody Island",
             "State__c": "NY",
-            "Zip__c": "13716"
+            "Country__c": "USA",
+            "Zip__c": "13617",
+            "Price__c": 400000,
+            "Picture__c": "https://app.box.com/s/3zxre7t92lqnc4d3q39m9otp5qdtlqro",
+            "Agent__c":"@JohnBondref"
+        },
+        {
+            "attributes": {
+                "type": "Property__c",
+                "referenceId": "OutdoorsyParadiseRef"
+            },
+            "Name": "The Ourdoorsy Paradise",
+            "Location__Latitude__s": 41.7478951,
+            "Location__Longitude__s": -72.6897804,
+            "Baths__c": 5,
+            "Beds__c": 6,
+            "Address__c": "300 Summit St",
+            "City__c": "Hartford",
+            "State__c": "CT",
+            "Country__c": "USA",
+            "Zip__c": "06106",
+            "Price__c": 300000,
+            "Agent__c":"@Patstumullerref"
+        },
+        {
+            "attributes": {
+                "type": "Property__c",
+                "referenceId": "ElegantManorRef"
+            },
+            "Name": "Elegant Manor",
+            "Location__Latitude__s": 44.6252312,
+            "Location__Longitude__s": -75.1577148,
+            "Baths__c": 15,
+            "Beds__c": 10,
+            "Address__c": "12 Stiles Rd",
+            "City__c": "Canton",
+            "State__c": "NY",
+            "Country__c": "USA",
+            "Zip__c": "13617",
+            "Price__c": 1000000,
+            "Picture__c": "https://app.box.com/s/pj3p2knkcak7dxx7hrql6qb78c7mxgb5",
+            "Agent__c":"@Andyyoungref"
+            
+        },
+        {
+            "attributes": {
+                "type": "Property__c",
+                "referenceId": "SpringyBlissRef"
+            },
+            "Name": "Springy Bliss",
+            "Location__Latitude__s": 44.592297,
+            "Location__Longitude__s": -75.1684034,
+            "Baths__c": 4,
+            "Beds__c": 3,
+            "Address__c": "40 Park Street",
+            "City__c": "Canton",
+            "State__c": "USA",
+            "Country__c": "USA",
+            "Zip__c": "13617",
+            "Price__c": 100000,
+            "Picture__c": "https://image.freepik.com/free-vector/illustration-couple-lovers-away-from-home_24877-58135.jpg",
+            "Agent__c":"@Timbarrref"
         }
     ]
 }

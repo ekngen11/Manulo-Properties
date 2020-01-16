@@ -14,6 +14,16 @@
                     
                 </lightning-input>
 
+                <div class="slds-box slds-theme_shade">
+                    
+                    <div class="slds-text-title_caps"><lightning-button-icon icon-name="announcement"></lightning-button-icon> legend/key</div>
+                    
+                    <div class="slds-p-top_small">
+                        Click <lightning-button-icon icon-name="utility:open" variant="bare"></lightning-button-icon> to open the associated property record.
+                    </div>
+
+                </div>
+
                 <lightning-layout multiple-rows="true" pull-to-boundary="small">
                     <template for:each={properties.data} for:item="property">
                         <lightning-layout-item key={property.Id} size="4" class="slds-p-around_x-small">
