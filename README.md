@@ -1,6 +1,7 @@
 
 # Manulo Properties Lightning Web Components Application
 
+![cabin-logo](Cabin-logo.png)
 
 Manulo Properties is a sample application that can be utilized in the Real Estate industry to extend the basic functionality of Salesforce and keep track of properties via a custom object.
 
