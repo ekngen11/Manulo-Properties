@@ -30,14 +30,15 @@ Installation Manulo Properties on a Scratch Org
 
 	sfdx force:user:permset:assign -n Manuloproperties
 	
-7. Import Contact sample data
+8 Import Sample data:
 	
-	sfdx force:data:tree:import --plan Data/Contact.json
+	sfdx force:data:tree:import --plan Data/sample.json
 	
-8 Import Property Sample data
+9. Open the scratch org:
+
+	sfdx force:org:open
+
+
 	
-	sfdx force:data:tree:import --plan Data/Property__c.json
-	
-9. 
 	
 
