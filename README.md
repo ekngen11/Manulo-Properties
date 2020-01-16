@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Manulo Properties Lightning Web Components Application
 
 
