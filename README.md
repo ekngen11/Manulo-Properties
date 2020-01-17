@@ -3,6 +3,8 @@
 
 ![cabin-logo](Cabin-logo.png)
 
+![homepage](homepage.png)
+
 Manulo Properties is a sample application that can be utilized in the Real Estate industry to extend the basic functionality of Salesforce and keep track of properties via a custom object.
 
 ## Installation Manulo Properties on a Scratch Org
