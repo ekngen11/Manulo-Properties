@@ -1,18 +1,47 @@
 <template>
-    
-    <div class="slds-size_4-of-4">
-        <div class="slds-box slds-box_x-small slds-text-align_center slds-m-around_x_small">
-            <lightning-carousel>
-                <lightning-carousel-image
-                    src={pictureURL}
-                    header=""
-                    description=""
-                    alternative-text=""
-                    href = "www.salesforce.com"
-                    >
+    <lightning-card icon-name="custom:custom38">
+        <template if:true={property.data}>
+            <span slot="title">{name}'s Gallery</span>
+            <div class="slds-m-around_medium">
+                <template if:true={urls}>
+                    <lightning-carousel>
+                        <template for:each={urls} for:item="url">
+                            <lightning-carousel-image
+                                key={url}
+                                src={url}
+                                description={description}>
+                            
+                            </lightning-carousel-image>
+                        </template>
+                    </lightning-carousel>
+                </template>
 
-                </lightning-carousel-image>
-            </lightning-carousel>
-        </div>
-    </div>
+                <template if:false={urls}>
+                    <lightning-icon
+                        icon-name="utility:photo"
+                        size="medium"
+                        class="slds-align_absolute-center"
+                        >
+                    </lightning-icon>
+
+                    <p class="slds-text-color--weak">
+                        There are currently no pictures for this property
+                    </p>
+                </template>
+
+                <lightning-file-upload
+                    label="Add Picture"
+                    multiple accept = ".jpg,.png,.gif,.jpeg"
+                    record-id={recordId}
+                    onuploadfinished = {handleUpload}
+                ></lightning-file-upload>
+
+            </div>
+        </template>
+        <template if:true={errors}>
+            <div class="slds-text-color_error">
+                Error retrieving pictures
+            </div>
+        </template>
+    </lightning-card>
 </template>

@@ -28,4 +28,20 @@ public with sharing class PropertyController {
              FROM Property__c];
     }
 
+    @AuraEnabled(Cacheable=true)
+    public static List<ContentVersion> getImages(Id propertyId){
+        List<ContentDocumentLink> links = [SELECT Id, LinkedEntityId,ContentDocumentId FROM ContentDocumentLink WHERE LinkedEntityId =: propertyId AND ContentDocument.FileType IN ('PNG','JPG','JPEG','GIF')];
+
+        if(links.isEmpty()){
+            return null;
+        }
+
+        Set<Id> contentIds = new Set<Id>();
+
+        for(ContentDocumentLink link:links){
+            contentIds.add(link.ContentDocumentId);
+        }
+
+        return [SELECT Id, Title FROM ContentVersion WHERE ContentDocumentId IN : contentIds];
+    }
 }
