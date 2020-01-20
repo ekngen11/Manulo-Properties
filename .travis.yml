@@ -13,12 +13,13 @@ before_install:
 - wget -qO- $URL | tar xJ -C sfdx --strip-components 1
 - "./sfdx/install"
 - export PATH=./sfdx/$(pwd):$PATH
+- gem install bundler
 - sfdx --version
 - sfdx plugins --core
 - sfdx force:auth:jwt:grant --clientid $CONSUMERKEY --jwtkeyfile assets/server.key
   --username $USERNAME --setdefaultdevhubusername -a HubOrg
 script:
-- sfdx force:org:create -v HubOrg -s -f config/project-scratch-def.json -a manuloscratch --wait 2
+- sfdx force:org:create -v HubOrg -s -f config/project-scratch-def.json -a manuloscratch --wait 4
 - sfdx force:org:display -u manuloscratch
 - sfdx force:source:push -u manuloscratch
 - sfdx force:apex:test:run -u manuloscratch --wait 10
