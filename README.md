@@ -63,3 +63,4 @@ sfdx force:org:open
 
 10. Click on the ![open_60](open_60.png) icon on the individual property to open its associated property record
 
+```
