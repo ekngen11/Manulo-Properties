@@ -11,9 +11,9 @@ Manulo Properties is a sample application that can be utilized in the Real Estat
 
 1. Set up your environment. Follow the steps in the [Quick Start: Lightning Web Components](https://trailhead.salesforce.com/content/learn/projects/quick-start-lightning-web-components/). The steps include:
 
--    Enable Dev Hub in your Trailhead Playground 
--    Install Salesforce CLI • Install Visual Studio Code 
--    Install the Visual Studio Code Salesforce extensions, including the Lightning Web Components extension
+-    Enable Dev Hub in your Trailhead Playground. 
+-    Install Salesforce CLI • Install Visual Studio Code. 
+-    Install the Visual Studio Code Salesforce extensions, including the Lightning Web Components extension.
 
 
 2. If you haven't already done so, authenticate with your hub org and provide it with an alias (**manuloproperties** in the command below):
@@ -28,7 +28,7 @@ sfdx force:auth:web:login -d -a manuloproperties
 git clone https://github.com/ekngen11/Manulo-Properties.git
 ```
 
-4. Create a scratch org and give it an alias (**manuloscratch** in our case below)
+4. Create a scratch org and give it an alias (**manuloscratch** in our case below).
 
 ```
 sfdx force:org:create -s -f config/project-scratch-def.json -a manuloscratch
